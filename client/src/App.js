@@ -6,7 +6,6 @@ import AuthContext from './context/AuthContext'
 import Navbar from './components/Navbar'
 import Loader from './components/Loader'
 
-
 const App = () => {
 	const {login, logout, token, userId, ready} = useAuth()
 	const isAuthenticated = !!token
